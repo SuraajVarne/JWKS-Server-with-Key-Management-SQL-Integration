@@ -47,8 +47,6 @@ Here is the key architecture of the project:
 
 ---
 
-## Running the Project Locally
-
 ### Prerequisites:
 - Python 3.x
 - Flask (`pip install Flask`)
@@ -63,7 +61,14 @@ Here is the key architecture of the project:
 
 ## Running the Project Locally
 
+### Install dependencies:
+pip install -r requirements.txt
+
 ### Navigate to the project directory:
 ```bash
 cd JWKS-Server-with-Key-Management-SQL-Integration
+python server.py
+
+
+
 
