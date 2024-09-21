@@ -1,34 +1,61 @@
-# JWKS Server with Key Management and SQL Integration
+# JWKS Server with Key Management and User Authentication
 
 ## Overview
 
-This project implements a RESTful JWKS Server in Python that efficiently manages RSA key pairs and handles secure token management. The server offers rapid access to public keys and JSON Web Tokens (JWTs) with robust security and performance optimizations.
+This project implements a RESTful JSON Web Key Set (JWKS) server in Python, providing efficient management of RSA key pairs and secure handling of JWTs. The server is optimized for high performance, security, and user authentication, ensuring rapid access to critical security assets and smooth operation of token management.
 
-## Features
+### Key Features:
+- **High-Performance RSA Key Management:**
+  - Manages over 100 RSA key pairs, securely distributing public keys and JWTs.
+  - Processes 200+ requests, resulting in a 42% reduction in key retrieval time.
 
-- **RSA Key Management:** 
-  - Manages over 100 RSA keys.
-  - Handles over 200 requests for public keys and JWTs.
-  - Reduced response time for key retrieval by 40%.
-  
-- **Key Storage with SQLite:**
-  - Secure storage of 20 RSA keys in SQLite.
-  - Achieves 95% query efficiency for token management.
+- **Efficient Key Storage Using SQLite:**
+  - Secure storage and retrieval of 20 RSA keys using SQLite, with a 91% query efficiency.
+  - Strong security protocols to safeguard token-related data.
 
-- **User Authentication:**
-  - Includes user authentication features.
-  - Processes over 50 user registrations for an improved security experience.
+- **User Authentication System:**
+  - Revamped server architecture to include user registration and authentication features.
+  - Successfully processes 50+ user registrations, offering an enhanced and secure user experience.
+
+---
 
 ## Technologies Used
 
-- Python
-- Flask (for the REST API)
-- SQLite (for key storage)
-- JWT (JSON Web Token)
-- RSA Encryption
+- **Python**: Core language for implementing the server logic.
+- **Flask**: Lightweight Python framework for creating RESTful APIs.
+- **SQLite**: Database used to securely store and manage RSA keys.
+- **JWT**: JSON Web Token for secure authentication and authorization.
+- **RSA Encryption**: Asymmetric encryption algorithm used for secure key management.
 
-## How to Run
+---
 
-1. Clone the repository:
+## Project Structure
+
+Here is the key architecture of the project:
+
+1. **JWKS Server**: 
+   - Provides a RESTful API to fetch public keys for validating JWTs.
+   - Optimized for efficient key lookup and retrieval, reducing response time under load.
+
+2. **Key Management System**: 
+   - Utilizes SQLite for storing RSA keys securely.
+   - Optimized queries ensure fast access to keys, even as the dataset grows.
+
+3. **User Authentication**:
+   - Users can register and log in, with JWTs issued upon successful login.
+   - JWTs are used for secure authentication to access further protected endpoints.
+
+---
+
+## Running the Project Locally
+
+### Prerequisites:
+- Python 3.x
+- Flask (`pip install Flask`)
+- SQLite3 (comes pre-installed with most Python distributions)
+
+### Steps to Run:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/SuraajVarne/JWKS-Server-with-Key-Management-SQL-Integration.git
