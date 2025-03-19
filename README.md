@@ -60,6 +60,7 @@ Here is the key architecture of the project:
    ```bash
    git clone https://github.com/SuraajVarne/JWKS-Server-with-Key-Management-SQL-Integration.git
  ```
+
    Navigate to the project directory:
    
   ```bash
