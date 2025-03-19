@@ -63,6 +63,7 @@ Here is the key architecture of the project:
    Navigate to the project directory:
    
   ```bash
+ ```bash
 cd JWKS-Server-with-Key-Management-SQL-Integration
 Install project dependencies:
 
