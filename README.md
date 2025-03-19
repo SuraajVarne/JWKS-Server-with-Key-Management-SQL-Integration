@@ -55,8 +55,7 @@ Here is the key architecture of the project:
 - SQLite3 (comes pre-installed with most Python distributions)
 
 ### Steps to Run:
-
-1. **Clone the repository**:
+**Clone the repository**:
    ```bash
    git clone https://github.com/SuraajVarne/JWKS-Server-with-Key-Management-SQL-Integration.git
    ```
@@ -66,28 +65,27 @@ Here is the key architecture of the project:
   ```bash
 cd JWKS-Server-with-Key-Management-SQL-Integration
 Install project dependencies:
-```
   ```bash
 pip install -r requirements.txt
+```
+
 Run the server:
-
-
+```bash
 python jwks_server.py
-
-  ```bash
 http://localhost:5000/.well-known/jwks.json
 
-
+```
 ## Running the Project Locally
 
 ### Install dependencies:
+```bash
 pip install -r requirements.txt
-
+```
 ### Navigate to the project directory:
 ```bash
 cd JWKS-Server-with-Key-Management-SQL-Integration
 python server.py
-
+```
 
 
 
