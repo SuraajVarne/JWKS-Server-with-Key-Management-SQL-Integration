@@ -59,9 +59,9 @@ Here is the key architecture of the project:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SuraajVarne/JWKS-Server-with-Key-Management-SQL-Integration.git
- ```
+   ```
 
-   Navigate to the project directory:
+**Navigate to the project directory:**
    
   ```bash
 cd JWKS-Server-with-Key-Management-SQL-Integration
