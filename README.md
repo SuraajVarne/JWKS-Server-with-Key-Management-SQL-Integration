@@ -60,6 +60,22 @@ Here is the key architecture of the project:
    ```bash
    git clone https://github.com/SuraajVarne/JWKS-Server-with-Key-Management-SQL-Integration.git
 
+   Navigate to the project directory:
+
+'''bash
+cd JWKS-Server-with-Key-Management-SQL-Integration
+Install project dependencies:
+
+'''bash
+pip install -r requirements.txt
+Run the server:
+
+'''bash
+python jwks_server.py
+
+'''bash
+http://localhost:5000/.well-known/jwks.json
+
 
 ## Running the Project Locally
 
